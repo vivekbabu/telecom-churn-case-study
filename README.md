@@ -48,6 +48,8 @@ We finally used the GridSearch on XGB classidier and found the below best parame
 Best Parameters: {'colsample_bytree': 0.7, 'gamma': 0.1, 'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 100, 'subsample': 0.5}
 Accuracy: 0.9416666666666667
 
-This model was used for prediction and we have attached the reuslts. But since Gridsearch requires very heavy resources we have commented the gridsearch code. 
+This model was used for prediction and we have attached the reuslts as final_prediction.csv in the repo and also in Kaggle. 
 
-We have included the normal XGB classifier code in the sheet
+But since Gridsearch requires very heavy resources and takes a lot of time, we have commented the gridsearch code. 
+
+We have included the normal XGB classifier code in the sheet and attached its output in the final submission
